@@ -1,0 +1,206 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+#root {
+  background: #21222A;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  position: absolute;
+}
+
+.navbar {
+
+  /* width: 550px; */
+  height: 91px;
+  left: 0px;
+  top: 0px;
+}
+
+
+.navbar--header {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 100%
+}
+
+.navbar--icon {
+  height: 4rem;
+  margin-right: 0.5rem;
+  opacity: 0.6;
+}
+
+.navbar--icon:hover {
+  opacity: 1;
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' height='128px' width='128px' style='fill:black;font-size:40px;'><text y='50%'>👆</text></svg>"),
+    auto;
+  ;
+}
+
+.navbar--header h3 h4 {
+  width: 259px;
+  height: 21px;
+  left: 264px;
+  top: 38px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+
+  color: #DEEBF8;
+  margin: 0;
+
+}
+
+.navbar--header h3 {
+
+  width: 122.39px;
+  height: 22.25px;
+  left: 61.61px;
+  top: 31px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.2535px;
+  line-height: 27px;
+  letter-spacing: -0.05em;
+
+  color: rgb(164, 9, 145);
+  margin-right: auto;
+
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  padding: 57px 27px;
+  color: #FFFFFF;
+  background: #282D35;
+  background-image: url(./src/assets/background.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: color-burn;
+}
+
+.content h3 {
+  width: 424px;
+  height: 41px;
+  left: 27px;
+  top: 148px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39.06px;
+  line-height: 47px;
+  letter-spacing: -0.05em;
+
+
+}
+
+.content ul {
+  margin-top: px;
+
+
+}
+
+.content li {
+  width: 390px;
+  height: 16.96px;
+  left: 74px;
+  top: 310.49px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+  padding-block: 10px;
+
+  color: #FFFFFF;
+}
+
+.content li::marker {
+  color: #646cff;
+  font-size: 1.4rem;
+}
+
+
+.content--tears:hover {
+  color: #646cff;
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' height='128px' width='128px' style='fill:black;font-size:40px;'><text y='50%'>😢</text></svg>"),
+    auto;
+  ;
+}
+
+.content--yuna:hover {
+  color: #646cff;
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' height='128px' width='128px' style='fill:black;font-size:40px;'><text y='50%'>🎷</text></svg>"),
+    auto;
+  ;
+}
+
+.content--beacon:hover {
+  color: #646cff;
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' height='128px' width='128px' style='fill:black;font-size:40px;'><text y='50%'>🛸</text></svg>"),
+    auto;
+  ;
+}
+
+
+.footer {
+  width: 100%;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
