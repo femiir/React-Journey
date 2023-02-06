@@ -3,7 +3,7 @@
 	url = ./airbnb
 [submodule "facecard"]
 	path = facecard
-	url = ./facecard
+	url = git@github.com:femiir/facecard.git
 [submodule "memegen"]
 	path = memegen
 	url = ./memegen
