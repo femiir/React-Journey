@@ -1,0 +1,9 @@
+[submodule "airbnb"]
+	path = airbnb
+	url = ./airbnb
+[submodule "facecard"]
+	path = facecard
+	url = ./facecard
+[submodule "memegen"]
+	path = memegen
+	url = ./memegen
