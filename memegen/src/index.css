@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Karla", sans-serif;
+
+}
+
+.header {
+  width: 550px;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: #FFFFFF;
+}
+
+.header--logo {
+  width: 178.79px;
+  height: 100%;
+  padding: 19px 0 0 20px;
+  margin-right: auto;
+}
+
+
+.header--navbar {
+  display: flex;
+  /* align-items: center; */
+
+}
+
+.header--title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.75rem;
+
+
+}
+
+
+.main {
+  padding: 20px;
+}
+
+.form--grid {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px
+}
+
+.main input[type="submit"] {
+  width: 477px;
+  height: 40px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  border-radius: 5px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: -0.1em;
+  color: #FFFFFF;
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  cursor: pointer;
+
+}
+
+
+.main input[type="text"] {
+  background: #E5E5E5;
+  border-radius: 5px;
+  color: #0D0D0D;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  border: 1px solid #d5d4d8;
+  font-family: "Karla", sans-serif;
+  text-indent: 5px;
+
+
+}
+
+
+
+.form--image {
+
+  border-radius: 6px;
+  margin-top: 36px;
+  width: 477px;
+  max-width: 100%;
+
+}
+
+.meme--image {
+  width: 477px;
+  height: 477px;
+  border-radius: 6px;
+  margin-top: 36px;
+  position: absolute;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+    2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0 2px 0 #000,
+    2px 0 0 #000,
+    0 -2px 0 #000,
+    -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
