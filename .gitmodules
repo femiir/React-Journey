@@ -10,3 +10,6 @@
 [submodule "gpt3"]
 	path = gpt3
 	url = git@github.com:femiir/gpt3.git
+[submodule "ambience"]
+	path = ambience
+	url = git@github.com:femiir/ambience.git
