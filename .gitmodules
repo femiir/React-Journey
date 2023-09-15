@@ -7,9 +7,6 @@
 [submodule "memegen"]
 	path = memegen
 	url = git@github.com:femiir/memegen.
-	
-
-
 [submodule "gpt3"]
 	path = gpt3
 	url = git@github.com:femiir/gpt3.git
